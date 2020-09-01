@@ -22,10 +22,11 @@ public class UserResource {
     public List<User> getUsersByFirstName(@PathVariable String firstname) {
         return userRepository.findByFirstname(firstname);
     }
-    @GetMapping("/users/search/email/{email}")
-    public List<User> getUsersByEmailAddress(@PathVariable String email) {
-        return userRepository.findByEmailAddress(email);
+    @GetMapping("/users/search/emailaddress/{emailaddress}")
+    public List<User> getUsersByEmailAddress(@PathVariable String emailaddress) {
+        return userRepository.findByEmailaddress(emailaddress);
     }
+
     @GetMapping("/users")
     public List<User> getAllUsers() {
         return userRepository.findAll();
