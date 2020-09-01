@@ -17,17 +17,16 @@ User Resource Controller implemented following
 
 ## getmapping endPoints
 
-
-#all users
+# all users
 /users
 
-#user by surname
+# user by surname
 /users/search/surname/{surname}
 
-#user by firstname
+# user by firstname
 /users/search/firstname/{firstname}
 
-# user b yemailaddress
+# user by emailaddress
 /users/search/emailaddress/{emailaddress}
 
 
