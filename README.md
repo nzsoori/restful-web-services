@@ -75,7 +75,7 @@ headers: Content-type: application/json
 Get a Project with code
 
 #Clone/Download the repo 
-
+** Make sure you have Maven and JDK Version >= 1.8 **
 git clone https://github.com/nzsoori/restful-web-services.git
 
 # change directory to repo
