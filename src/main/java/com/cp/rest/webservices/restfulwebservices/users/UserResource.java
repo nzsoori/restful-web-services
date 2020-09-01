@@ -33,7 +33,7 @@ public class UserResource {
 
     }
 
-    //POST /users/{username}/todos
+    //POST /users
 
     @PostMapping("/users")
     public ResponseEntity<Void> createUser(@RequestBody User user) {
