@@ -2,7 +2,8 @@
 
 Goal Design and implement a RESTful API to retrieve user information. 
 
-#have used Spring Web  / Spring Data JPA  / H2 Database in memory database
+#have developed in Intellij Idea and   start.Spring.io using make sure java 8, Maven, springboot 2.3.3
+ used Spring Web  / Spring Data JPA  / H2 Database in memory database
 
 
 ##  Features 
@@ -64,3 +65,33 @@ headers: Content-type: application/json
   "firstname":"firstname",
   "emailaddress":"test@test.com"
 }
+
+##How to Build
+
+Get a Project with code
+
+##Clone the git repository:https://github.com/nzsoori/restful-web-services.git
+
+#Running the Spring Boot app
+
+Navigate to the directory into which you cloned the repo and execute this: mvn spring-boot:run
+
+Once started you can access the APIs on port 9080, e.g. http://localhost:8080/users
+
+ able to access from http://localhost:8080/users and other endpoints as mentioned
+ 
+ 
+  
+  ## from Zip file  in IntellijIdea
+# download https://github.com/nzsoori/restful-web-services/archive/master.zip
+unzip to a folder  from intellij import a project pick pom.xml  will dowload all dependencies
+
+ run RestfulWebServicesApplication 
+ 
+ able to access from http://localhost:8080/users and other endpoints as mentioned
+ 
+ 
+
+
+
+
