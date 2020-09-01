@@ -66,11 +66,11 @@ headers: Content-type: application/json
   "emailaddress":"test@test.com"
 }
 
-##How to Build
+## How to Build
 
 Get a Project with code
 
-##Clone the git repository:https://github.com/nzsoori/restful-web-services.git
+## Clone the git repository:https://github.com/nzsoori/restful-web-services.git
 
 #Running the Spring Boot app
 
