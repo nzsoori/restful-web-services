@@ -11,18 +11,23 @@ Goal Design and implement a RESTful API to retrieve user information.
 
 #have added api endpoints:
 
-default is http://localhost:8080
+default is http://localhost:8080/users
 
 User Resource Controller implemented following 
 
 ## getmapping endPoints
 
+
+#allusers
 /users
 
+#userbysurname
 /users/search/surname/{surname}
 
+#userbyfirstname
 /users/search/firstname/{firstname}
 
+# userbyemailaddresse
 /users/search/emailaddress/{emailaddress}
 
 
