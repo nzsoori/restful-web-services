@@ -74,11 +74,28 @@ headers: Content-type: application/json
 
 Get a Project with code
 
-## from Zip file  in IntellijIdea
+#Clone/Download the repo 
+
+git clone https://github.com/nzsoori/restful-web-services.git
+
+# change directory to repo
+ restful-web-services
+
+# install the repo with mvn
+mvn install
+
+# start the application
+In terminal 
+ from project folder 
+restful-web-services>     mvnw clean spring-boot:run
+
+
+
+## from Zip file  in Intellij Idea
 # download https://github.com/nzsoori/restful-web-services/archive/master.zip
 unzip to a folder  from intellij import a project pick pom.xml  will dowload all dependencies
 
- run RestfulWebServicesApplication 
+ Run the Application :  run Main class  RestfulWebServicesApplication 
  
  able to access from http://localhost:8080/users and other endpoints as mentioned
  
