@@ -80,7 +80,7 @@ Get a Project with code
 
 Navigate to the directory into which you cloned the repo and execute this: mvn spring-boot:run
 
-Once started you can access the APIs on port 9080, e.g. http://localhost:8080/users
+Once started you can access the APIs on port 8080, e.g. http://localhost:8080/users
 
  able to access from http://localhost:8080/users and other endpoints as mentioned
  
