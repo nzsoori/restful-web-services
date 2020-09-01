@@ -74,19 +74,7 @@ headers: Content-type: application/json
 
 Get a Project with code
 
-## Clone the git repository:https://github.com/nzsoori/restful-web-services.git
-
-#Running the Spring Boot app
-
-Navigate to the directory into which you cloned the repo and execute this: mvn spring-boot:run
-
-Once started you can access the APIs on port 8080, e.g. http://localhost:8080/users
-
- able to access from http://localhost:8080/users and other endpoints as mentioned
- 
- 
-  
-  ## from Zip file  in IntellijIdea
+## from Zip file  in IntellijIdea
 # download https://github.com/nzsoori/restful-web-services/archive/master.zip
 unzip to a folder  from intellij import a project pick pom.xml  will dowload all dependencies
 
